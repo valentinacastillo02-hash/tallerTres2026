@@ -17,6 +17,13 @@ public class Jugador {
 	public int getPuntajeHistorico() {
 		return PuntajeHistorico;
 	}
+	public void setNombre(String nombre) {
+		Nombre = nombre;
+	}
+	public void setPuntajeHistorico(int puntajeHistorico) {
+		PuntajeHistorico = puntajeHistorico;
+	}
+	
 	
 	
 }
